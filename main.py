@@ -37,7 +37,7 @@ def write_to_output_file(string,filename):
 
 def main():
     #Encoding is UTF8 since we are also reading special character
-    data = open('passphrases.txt','r',encoding="utf8").readlines()
+    data = open('password.txt','r',encoding="utf8").readlines()
     #count for strong and weak passphrase
     strong_passphrase = 0
     weak_passphrase = 0
